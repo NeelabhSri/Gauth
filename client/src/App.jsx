@@ -4,7 +4,7 @@ function App() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/dashboard", {
+    fetch("https://gauth-backend-4zy8.onrender.com", {
       credentials: "include",
     })
       .then((res) => res.json())
