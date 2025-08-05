@@ -25,7 +25,7 @@ function App() {
   return (
     <div style={{ padding: "2rem" }}>
       <h1>Please Login with Google</h1>
-      <a href="https://gauth-backend-4zy8.onrender.com">
+      <a href="https://gauth-backend-4zy8.onrender.com/auth/google">
         <button style={{ padding: "10px 20px" }}>
           Sign in with Google
         </button>
